@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText() //when number is updated:
     {
     countText.text= "Count: " + count.ToString();   //sets number on screen to reflect var "count"
-                if ( countText.text == "Count: 15" )
+                if ( countText.text == "Count: 23" )
             {
             winTextObject.SetActive(true);
             }
