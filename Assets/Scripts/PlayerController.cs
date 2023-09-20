@@ -50,8 +50,6 @@ public class PlayerController : MonoBehaviour
                 if ( countText.text == "Count: 15" )
             {
             winTextObject.SetActive(true);
-
-            speed = 69;
             }
     }
 
